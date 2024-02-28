@@ -2,6 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/klala/IdeaProjects/APIAutomationRestAssured">
-        <classes/>
+        <classes>
+            <class name="tests.crud.GET.NonBDDStyleTestNG">
+                <methods>
+                    <include name="GetAllBookingPositive"/>
+                    <include name="GetAllBookingNegative"/>
+                    <include name="GetAllBookingNegative2"/>
+                </methods>
+            </class>
+            <class name="tests.crud.sample">
+                <methods>
+                    <include name="CreatUser"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

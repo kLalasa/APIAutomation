@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd403676-acd2-470b-9a1f-fee5348ca98d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Helloworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGET1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NonBDDStyleGET1">
-    <configuration name="NonBDDStyleGET1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.crud.GET.NonBDDStyleGET1" />
+  <component name="RunManager">
+    <configuration name="BDDStylePost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.BDDStylePost" />
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.crud.GET.*" />
+          <option name="PATTERN" value="tests.crud.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,30 +63,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDStyleGet (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NonBDDStyleGet" />
-      <module name="APIAutomationRestAssured" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonBDDStyleGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.crud.GET.NonBDDStyleGet" />
+    <configuration name="BDDStylePost.testBDDStylePost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.crud.GET.*" />
+          <option name="PATTERN" value="tests.crud.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests.crud.POST" />
+      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.BDDStylePost" />
+      <option name="METHOD_NAME" value="testBDDStylePost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDStyleGet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/klala/IdeaProjects/APIAutomationRestAssured/src/test/java/tests/crud/POST/testng-post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NonBDDStyleGet" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/crud/POST/testng-post.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDStylePUT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.crud.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.crud.PUT" />
+      <option name="MAIN_CLASS_NAME" value="tests.crud.PUT.NonBDDStylePUT" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -100,12 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDStyleGet.GETReq" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NonBDDStylePost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NonBDDStyleGet" />
-      <option name="METHOD_NAME" value="GETReq" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.crud.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.crud.POST" />
+      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.NonBDDStylePost" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NonBDDStyleGET1" />
-        <item itemvalue="Application.NonBDDStyleGet (1)" />
-        <item itemvalue="TestNG.NonBDDStyleGet" />
-        <item itemvalue="TestNG.NonBDDStyleGet.GETReq" />
-        <item itemvalue="Application.NonBDDStyleGet" />
+        <item itemvalue="TestNG.NonBDDStylePUT" />
+        <item itemvalue="TestNG.NonBDDStylePost" />
+        <item itemvalue="TestNG.C:/Users/klala/IdeaProjects/APIAutomationRestAssured/src/test/java/tests/crud/POST/testng-post.xml" />
+        <item itemvalue="TestNG.BDDStylePost.testBDDStylePost" />
+        <item itemvalue="Application.BDDStylePost" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +145,16 @@
       <updated>1708436298513</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGET1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
