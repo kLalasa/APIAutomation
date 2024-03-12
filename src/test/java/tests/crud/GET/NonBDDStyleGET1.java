@@ -13,7 +13,7 @@ public class NonBDDStyleGET1 {
             RequestSpecification r = RestAssured.given();
 
             r.baseUri("https://restful-booker.herokuapp.com");
-            r.basePath("/booking/2428").log().all();
+            r.basePath("/booking/1310").log().all();
             r.when().get();
             r.then().log().all().statusCode(200);
 

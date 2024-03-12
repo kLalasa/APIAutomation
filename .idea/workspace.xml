@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd403676-acd2-470b-9a1f-fee5348ca98d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Misc/UsingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGET1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGET1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/crud/PATCH/NonBDDStylePatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/crud/PATCH/NonBDDStylePatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/crud/POST/NonBDDStylePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/crud/POST/NonBDDStyleAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng01.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +46,29 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/klala/IdeaProjects/APIAutomationRestAssured/src/test/java/Testng/DDT&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\klala\IdeaProjects\APIAutomationRestAssured\src\test\java\Testng\DDT" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\klala\IdeaProjects\APIAutomationRestAssured\src\test\Resources" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="BDDStylePost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.BDDStylePost" />
+    <configuration name="NonBDDStyleGET1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.crud.GET.NonBDDStyleGET1" />
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.crud.POST.*" />
+          <option name="PATTERN" value="tests.crud.GET.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BDDStylePost.testBDDStylePost" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/klala/IdeaProjects/APIAutomationRestAssured/testng01.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng01.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDT01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testng.DDT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testng.DDT" />
+      <option name="MAIN_CLASS_NAME" value="Testng.DDT.DDT01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDStyleAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -72,19 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.crud.POST" />
-      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.BDDStylePost" />
-      <option name="METHOD_NAME" value="testBDDStylePost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/klala/IdeaProjects/APIAutomationRestAssured/src/test/java/tests/crud/POST/testng-post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestAssured" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/crud/POST/testng-post.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.NonBDDStyleAuth" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDStylePost" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Postreq" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.crud.POST.*" />
+          <option name="PATTERN" value="Gson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.crud.POST" />
-      <option name="MAIN_CLASS_NAME" value="tests.crud.POST.NonBDDStylePost" />
+      <option name="PACKAGE_NAME" value="Gson" />
+      <option name="MAIN_CLASS_NAME" value="Gson.Postreq" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -127,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Postreq" />
+        <item itemvalue="TestNG.DDT01" />
+        <item itemvalue="TestNG.C:/Users/klala/IdeaProjects/APIAutomationRestAssured/testng01.xml" />
         <item itemvalue="TestNG.NonBDDStylePUT" />
-        <item itemvalue="TestNG.NonBDDStylePost" />
-        <item itemvalue="TestNG.C:/Users/klala/IdeaProjects/APIAutomationRestAssured/src/test/java/tests/crud/POST/testng-post.xml" />
-        <item itemvalue="TestNG.BDDStylePost.testBDDStylePost" />
-        <item itemvalue="Application.BDDStylePost" />
+        <item itemvalue="TestNG.NonBDDStyleAuth" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +182,31 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/crud/GET/NonBDDStyleGET1.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Misc/UsingMap.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Gson/Postreq.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Gson/Postreq.java</url>
+          <line>12</line>
+          <properties field="requestSpecification" class="Gson.Postreq" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Gson/Postreq.java</url>
+          <line>15</line>
+          <properties class="Gson.Postreq" method="TestPostive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

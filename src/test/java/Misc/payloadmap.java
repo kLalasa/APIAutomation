@@ -1,4 +1,4 @@
-package tests.crud.POST;
+package Misc;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -7,13 +7,13 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class NonBDDStylePost {
+public class payloadmap {
     @Test
-    public void Posttest(){
-
-        RequestSpecification r= RestAssured.given();
+    public void testPostreq(){
+        RequestSpecification requestSpecification;
+        ValidatableResponse validatableResponse;
         String payload="{\n" +
-                "    \"firstname\" : \"Jim\",\n" +
+                "    \"firstname\" : \"Amit\",\n" +
                 "    \"lastname\" : \"Brown\",\n" +
                 "    \"totalprice\" : 111,\n" +
                 "    \"depositpaid\" : true,\n" +
@@ -23,18 +23,18 @@ public class NonBDDStylePost {
                 "    },\n" +
                 "    \"additionalneeds\" : \"Breakfast\"\n" +
                 "}";
-        r.baseUri("https://restful-booker.herokuapp.com");
-        r.basePath("/booking");
-        r.contentType(ContentType.JSON);
-        r.body(payload);
-        Response response=r.when().post();
-        ValidatableResponse validatableResponse=response.then();
 
-        String responseString=response.asString();
-        System.out.println(responseString);
+        requestSpecification = RestAssured.given();
+        requestSpecification.baseUri("https://restful-booker.herokuapp.com");
+        requestSpecification.basePath("/booking");
+        requestSpecification.contentType(ContentType.JSON);
+        requestSpecification.body(payload).log().all();
+        Response response=requestSpecification.when().post();
+        Integer bookingId=response.then().extract().path("bookingid");
 
+        validatableResponse =response.then().log().all();
         validatableResponse.statusCode(200);
+        System.out.println("Your booking id is" +bookingId);
+
     }
-
-
 }
