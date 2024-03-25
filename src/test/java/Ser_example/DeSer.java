@@ -1,4 +1,4 @@
-package Gson;
+package Ser_example;
 
 import com.google.gson.Gson;
 import org.testng.Assert;
@@ -17,7 +17,7 @@ public class DeSer {
                 "}\n";
 
         Gson gson=new Gson();
-        example exmobj=gson.fromJson(jsonstring,example.class);
+        example exmobj=gson.fromJson(jsonstring, example.class);
         String firstname=exmobj.getFirstname();
         String lastname=exmobj.getLastname();
 

@@ -1,4 +1,4 @@
-package Gson;
+package Ser_example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
