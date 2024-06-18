@@ -1,0 +1,9 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/klala/IdeaProjects/APIAutomationRestAssured">
+        <classes>
+
+            <class name="Testng.Test001"></class>
+
+        </classes>
+    </test>
+</suite>

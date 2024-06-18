@@ -1,17 +1,19 @@
-package gorest.crud.Create;
-
+package gorest.crud.EndtoEnd;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class NonBDDStyle {
-    @Test
-    public void NonBDDTest() {
-        Integer id;
+public class CreateDel {
+    Integer id;
+    @BeforeTest
+
+    public void CreateTest(){
+
         RequestSpecification r = RestAssured.given();
         r.baseUri("https://gorest.co.in/");
         r.basePath("/public/v2");
@@ -20,9 +22,9 @@ public class NonBDDStyle {
 
         String payload = "{\n" +
                 "    \n" +
-                "    \"name\":\"Viaan\",\n" +
+                "    \"name\":\"Gyanesh\",\n" +
                 "    \"gender\":\"male\",\n" +
-                "    \"email\":\"vian@gmail.com\",\n" +
+                "    \"email\":\"gyan@gmail.com\",\n" +
                 "    \"status\":\"inactive\"\n" +
                 "}";
 
@@ -37,6 +39,20 @@ public class NonBDDStyle {
 
         id=response.then().log().all().extract().path("id");
         System.out.println(id);
+
+    }
+    @Test
+
+    public void DelTest(){
+        RequestSpecification r= RestAssured.given();
+        r.baseUri("https://gorest.co.in/");
+        r.basePath("/public/v2/users/" + id);
+        r.contentType(ContentType.JSON);
+        r.header("Authorization","Bearer b8911997c283d2462abc4ba98888aa35032f95262d53445d68d0fc2c34d0fec2");
+        Response response=r.when().delete();
+
+        ValidatableResponse validatableResponse=response.then().log().all();
+        validatableResponse.statusCode(204);
 
     }
 }

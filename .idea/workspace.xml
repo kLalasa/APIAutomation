@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd403676-acd2-470b-9a1f-fee5348ca98d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/Create/NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/Delete/NonBDDDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/Get/NonBDDStyleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/Update/NonBDDStylePatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/EndtoEnd/CreateDel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crud/EndtoEnd/Test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Gson/DeSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ser_example/DeSer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Gson/Simpleser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ser_example/Simpleser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Gson/example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ser_example/example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gorest/crud/Create/NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gorest/crud/Create/NonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/crud/PUT/NonBDDStylePUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/crud/PUT/NonBDDStylePUT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\klala\IdeaProjects\APIAutomationRestAssured" />
       <recent name="C:\Users\klala\IdeaProjects\APIAutomationRestAssured\src\test\java\Testng\DDT" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
